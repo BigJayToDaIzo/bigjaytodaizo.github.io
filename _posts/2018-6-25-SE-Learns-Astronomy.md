@@ -4,7 +4,7 @@ title: Software Engineer Learns WHOLE NEW SCIENCE (we all do)
 comments: true
 ---
 
-# Happy Monday everyone!  
+## Happy Monday everyone!  
 
 So I will confess that the title is click bait.  I didn't learn a whole new science today.  What I will confirm for you now is that learning to become a Computer Scientists is only 'syllabus week' material.  Once you hit the real world do you think that you are going to be programming about programming?  Nah, you're going to go to work for a company that more than likely requires you to learn a whole new field and THEN how to improve that field with a computer program that you and your team write.
 
