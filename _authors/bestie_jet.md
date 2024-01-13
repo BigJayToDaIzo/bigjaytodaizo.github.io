@@ -4,4 +4,4 @@ name: Bestie Jet
 position: COQWEENCEO
 ---
 
-Jet is a staple around here. She gets a say.
+# Jet is a staple around here. She gets a say
