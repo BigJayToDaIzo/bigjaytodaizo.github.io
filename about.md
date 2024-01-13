@@ -1,5 +1,4 @@
 ---
-layout: default
 title: There and Back Again
 ---
 
