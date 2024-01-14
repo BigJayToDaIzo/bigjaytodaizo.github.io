@@ -1,9 +1,8 @@
 ---
+layout: post
 topic: Etching Install & Rescue Media
 short_name: jm
-name: jm
-position: 2
-layout: post
+author: jm
 ---
 
 # Yes, it WILL rescue you if you read the friendly manual

@@ -1,7 +1,7 @@
 ---
 short_name: jm
 name: jm
-position: Executive CEO
+position: CEO
 ---
 
 Harambe!

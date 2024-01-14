@@ -1,6 +1,8 @@
 ---
+layout: post
 topic: Write Partition Tables
-position: 5
+short_name: jm
+author: jm
 ---
 
 # List them and read CLOSELY before writing that table

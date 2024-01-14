@@ -1,6 +1,8 @@
 ---
+layout: post
 topic: Booting In
-position: 3
+short_name: jm
+author: jm
 ---
 
 # WE GOT ROOT! What now?
