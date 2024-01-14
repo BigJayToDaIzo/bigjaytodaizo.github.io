@@ -6,7 +6,7 @@ title: Topics
 <ul>
   {% for t in site.topics %}
   <li>
-    <h3><a href="{t.url}">{{ t.topic }}</a></h3>
+    <h3><a href="{{t.url}}">{{ t.topic }}</a></h3>
     <p>{{ t.content | markdownify }}</p>
   </li>
   {% endfor %}
