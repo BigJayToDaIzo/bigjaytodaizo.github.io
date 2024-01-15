@@ -1,4 +1,5 @@
 <nav id="navbar">
+  {% include scripts.html %}
   {% for item in site.data.navigation %}
   <a
     href="{{ item.link }}"
@@ -10,6 +11,7 @@
   </a>
   {% endfor %}
   <button
+    onclick="setThemeBright()"
     class="theme-select"
     id="bright-theme"
     title="Toggles on bright theme"
@@ -17,6 +19,7 @@
     Bright
   </button>
   <button
+    onclick="setThemeColorful()"
     class="theme-select"
     id="colorful-theme"
     title="Toggles on colorful theme"
@@ -24,6 +27,7 @@
     Colorful
   </button>
   <button
+    onclick="setThemeDark()"
     class="theme-select"
     id="dark-theme"
     title="Toggles on dark theme"
