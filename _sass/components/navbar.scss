@@ -1,6 +1,18 @@
-a {
-  padding: 0 0.5em;
-}
-.currentTab {
-  background: cornflowerblue;
+#navbar {
+  overflow: hidden;
+  background-color: #8cd3ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  a {
+    padding: 0 0.5em;
+  }
+
+  .currentTab {
+    background: cornflowerblue;
+  }
+
+
 }
