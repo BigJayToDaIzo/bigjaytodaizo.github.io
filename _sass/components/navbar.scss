@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  padding: 0.2em 0;
   width: 100%;
   
   a {
@@ -14,5 +15,9 @@
     background: cornflowerblue;
   }
 
+  #theme_buttons {
+    float: right;
+    margin-right: 0.5em;
 
+  }
 }

@@ -10,29 +10,31 @@
     {{ item.name }}
   </a>
   {% endfor %}
-  <button
-    onclick="setThemeBright()"
-    class="theme-select"
-    id="bright-theme"
-    title="Toggles on bright theme"
-    aria-label="auto">
-    Bright
-  </button>
-  <button
-    onclick="setThemeColorful()"
-    class="theme-select"
-    id="colorful-theme"
-    title="Toggles on colorful theme"
-    aria-label="auto">
-    Colorful
-  </button>
-  <button
-    onclick="setThemeDark()"
-    class="theme-select"
-    id="dark-theme"
-    title="Toggles on dark theme"
-    aria-label="auto">
-    Dark
-  </button>
+  <div id="theme_buttons">
+    <button
+      onclick="setThemeBright()"
+      class="theme-select"
+      id="bright-theme"
+      title="Toggles on bright theme"
+      aria-label="auto">
+      Bright
+    </button>
+    <button
+      onclick="setThemeColorful()"
+      class="theme-select"
+      id="colorful-theme"
+      title="Toggles on colorful theme"
+      aria-label="auto">
+      Colorful
+    </button>
+    <button
+      onclick="setThemeDark()"
+      class="theme-select"
+      id="dark-theme"
+      title="Toggles on dark theme"
+      aria-label="auto">
+      Dark
+    </button>
+  </div>
   
 </nav>
