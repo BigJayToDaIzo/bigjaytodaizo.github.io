@@ -5,4 +5,4 @@ short_name: jm
 author: jm
 ---
 
-# Yes, it WILL rescue you if you read the friendly manual
+### Yes, it WILL rescue you if you read the friendly manual

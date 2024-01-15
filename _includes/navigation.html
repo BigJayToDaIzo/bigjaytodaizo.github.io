@@ -1,15 +1,10 @@
-<nav>
+<nav id="navbar">
   {% for item in site.data.navigation %}
   <a
     href="{{ item.link }}"
-    {%
-    if
-    page.url == item.link
-    %}
+    {% if page.url == item.link %}
     class="currentTab"
-    {%
-    endif
-    %}
+    {% endif %}
   >
     {{ item.name }}
   </a>
