@@ -271,7 +271,6 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-seo-tag
-  liquid
   webrick
 
 BUNDLED WITH

@@ -3,7 +3,6 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'liquid'
 gem 'webrick'
 
 group :jekyll_plugins do
