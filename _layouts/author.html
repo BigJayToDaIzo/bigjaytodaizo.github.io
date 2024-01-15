@@ -1,28 +1,39 @@
 ---
 ---
 
-{% include navigation.html %}
-<h1>{{ page.name }}</h1>
-<h2>{{ page.position }}</h2>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    {% feed_meta %} {% seo %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    <h1>{{ page.name }}</h1>
+    <h2>{{ page.position }}</h2>
 
-{{ content }}
+    {{ content }}
 
-<h2><u>Posts</u></h2>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'author', page.short_name %} {%
-  if filtered_posts != empty %} {% for post in filtered_posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %} {% else %}
-  <p>none ~</p>
-  {% endif %}
-</ul>
+    <h2><u>Posts</u></h2>
+    <ul>
+      {% assign filtered_posts = site.posts | where: 'author', page.short_name %} {%
+      if filtered_posts != empty %} {% for post in filtered_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %} {% else %}
+      <p>none ~</p>
+      {% endif %}
+    </ul>
 
-<h2><u>Topics</u></h2>
-<ol>
-  {% assign filtered_topics = site.topics | where: 'author', page.short_name %}
-  {% if filtered_topics != empty %} {% for topic in filtered_topics %}
-  <li><a href="{{ topic.url }}">{{ topic.topic }}</a></li>
-  {% endfor %} {% else %}
-  <p>none ~</p>
-  {% endif %}
-</ol>
+    <h2><u>Topics</u></h2>
+    <ol>
+      {% assign filtered_topics = site.topics | where: 'author', page.short_name %}
+      {% if filtered_topics %} {% for topic in filtered_topics %}
+      <li><a href="{{ topic.url }}">{{ topic.topic }}</a></li>
+      {% endfor %} {% else %}
+      <p>none ~</p>
+      {% endif %}
+    </ol>
+  </body>
+</html>
