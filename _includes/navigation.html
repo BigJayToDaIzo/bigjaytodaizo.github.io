@@ -11,30 +11,23 @@
   </a>
   {% endfor %}
   <div id="theme_buttons">
-    <button
-      onclick="setThemeBright()"
-      class="theme-select"
-      id="bright-theme"
-      title="Toggles on bright theme"
-      aria-label="auto">
-      Bright
-    </button>
-    <button
-      onclick="setThemeColorful()"
-      class="theme-select"
-      id="colorful-theme"
-      title="Toggles on colorful theme"
-      aria-label="auto">
-      Colorful
-    </button>
-    <button
-      onclick="setThemeDark()"
-      class="theme-select"
-      id="dark-theme"
-      title="Toggles on dark theme"
-      aria-label="auto">
-      Dark
-    </button>
+    <input 
+      type="image" 
+      name="bright"
+      src="/assets/images/Google-Noto-Emoji-Travel-Places-42652-sun.96.png" 
+      onclick="setThemeBright();"
+    />
+    <input
+      type="image"
+      name="colorful"
+      src="/assets/images/Google-Noto-Emoji-Travel-Places-42682-rainbow.96.png"
+      onclick="setThemeColorful();"
+    >
+    <input
+      type="image"
+      name="dark"
+      src="/assets/images/moon-pngrepo-com.png"
+      onclick="setThemeDark();"
   </div>
-  
 </nav>
+
