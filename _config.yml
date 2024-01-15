@@ -2,13 +2,16 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
 sass:
   style: compressed
+  
 collections:
   authors:
     output: true
   topics:
     output: true
+
 defaults:
   - scope:
       path: ""
