@@ -10,6 +10,6 @@ Stay tuned for actual information about me in the days to come. I want to spend 
 
 The first thing you should know about me is within my new passion for building personal developer environments with open source software, is that I'm now simping for Lua.
 
-![Image of the Lua logo replacing Thanos's head](/assets/images/Lua_Meme_400p.jpg)
+![Image of the Lua logo replacing Thanos's head](/assets/images/Lua_Meme.jpg)
 
 Love, JM
