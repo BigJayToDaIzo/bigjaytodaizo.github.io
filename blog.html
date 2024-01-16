@@ -1,13 +1,19 @@
 ---
 title: Blog
 ---
-
-<h1>Latest Posts</h1>
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
-  </li>
+<h2>Blawgz Dawg</h2>
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+  <h2>{{ year.name }}</h2>
+  {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+  {% for month in postsByMonth %}
+    <h3>{{ month.name }}</h3>
+    <ul>
+      {% for post in month.items %}
+      <li>
+        <a href="{{ post.url }}">{{ post.date | date: '%d' }}: {{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
   {% endfor %}
-</ul>
+{% endfor %}
