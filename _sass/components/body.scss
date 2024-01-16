@@ -1,18 +1,26 @@
 body,
 html {
   font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  background-color: #bfbfbf;
+  // color: #2367a2;
+  color: #793d93;
 }
 
-.bright {
-  background-color: #fff;
-}
+a {
+  &:link {
+    color: blue;
+  }
 
-.dark {
-  background-color: #111111;
-  color: #fff;
-}
+  &:visited {
+    color: #3a743d;
+  }
 
-.colorful {
-  background-color: #8cd3ff;
-  color: #000;
+  &:hover {
+    color: orangered;
+  }
+
+  &:active {
+    color: violet;
+  }
 }
