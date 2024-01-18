@@ -2,6 +2,7 @@ nav {
  // margin-bottom: 50px;
 
 }
+
 #navbar {
   overflow: hidden;
   background-color: #8cd3ff;
@@ -9,7 +10,6 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  margin-bottom: 3em;
   
   a {
     padding: 0 0.5em;
@@ -19,5 +19,13 @@ nav {
   .currentTab {
     background: cornflowerblue;
   }
-  
+
+  button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
 }
