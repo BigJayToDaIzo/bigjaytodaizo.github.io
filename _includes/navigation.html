@@ -1,4 +1,7 @@
 <nav id="navbar" style="float: left;">
+  <button type="button" class="btn" onclick="location.href = '/';" id="homeButton">
+   <img src="/assets/images/NorthStarLua.png" alt="Home" width="24" height="24"/>
+  </button>
   {% for item in site.data.navigation %}
   <a
     href="{{ item.link }}"
