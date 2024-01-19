@@ -1,5 +1,6 @@
 nav {
  // margin-bottom: 50px;
+ position: relative;
 
 }
 
@@ -26,6 +27,12 @@ nav {
     border: none;
     text-decoration: none;
     border-radius: 3px;
+  }
+
+  .time {
+    vertical-align: baseline;
+    position: absolute;
+    bottom: 0;
   }
 
 }
